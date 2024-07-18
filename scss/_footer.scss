@@ -1,0 +1,20 @@
+@mixin anclas{
+    text-decoration: none;
+    color: $color-blanco;
+}
+
+footer {
+    background-image: linear-gradient(to top, #333232, #4d4d4d, #6a6969, #878787, #a6a6a6);
+    color: $color-blanco;
+    text-align: center;
+    justify-content: stretch;
+    height: 100px;
+    top: auto;
+
+    .redes a {
+        @include anclas;
+        display: inline-block;
+        margin: 1px;
+        font-size: 26px;
+    }
+}

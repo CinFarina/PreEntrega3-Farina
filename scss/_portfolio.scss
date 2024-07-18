@@ -1,0 +1,50 @@
+.contenedorportfolio {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 20px;
+    margin-block-end: 50px;
+}
+
+.trabajos {
+    flex-direction: column;
+    max-width: max-content;
+    margin: auto;
+    color:$color-blanco;
+    display: flex;
+    justify-content: center;
+    justify-items: start;
+
+    .imgportfolio1 {
+        justify-items: start;
+        padding: 3px;
+        width: auto;
+        height: 300px;
+        border-radius: 5px;
+        background-color: $color-blanco;
+        margin-top: 60px;
+    }
+
+    p {
+        font-size: 25px;
+        margin-bottom: 2px;
+        text-align: center;
+        color: $color-azul;
+    }
+
+    .imgportfolio2,
+    .imgportfolio3,
+    .imgportfolio4,
+    .imgportfolio5,
+    .imgportfolio6 {
+        padding: 3px;
+        width: auto;
+        height: 300px;
+        border-radius: 5px;
+        background-color: $color-blanco;
+        margin-top: 60px;
+    }
+
+    img {
+        width: 100%;
+    }
+}

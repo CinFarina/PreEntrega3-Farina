@@ -1,0 +1,37 @@
+.presentacion {
+  max-width: 1100px;
+  height: 100vh;
+  margin: auto;
+  color: $color-blanco;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bienvenida {
+  font-size: 26px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.presentacion {
+  h1 {
+    font-size: 55px;
+    margin-bottom: 25px;
+    text-align: center;
+
+    span {
+      font-size: 50px;
+      color: $color-azul;
+    }
+  }
+
+  .descripcion {
+    max-width: 700px;
+    margin: 25px auto;
+    font-size: 18px;
+    text-align: center;
+  }
+}

@@ -1,0 +1,15 @@
+#servicios {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 20px;
+    margin-block-end: 50px;
+    justify-items: center;
+    padding: 20px;
+
+    h1 {
+        font-size: 25px;
+        margin-bottom: 2px;
+        text-align: center;
+        color: $color-azul;
+    }
+}
